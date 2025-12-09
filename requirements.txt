@@ -2,7 +2,7 @@ langgraph
 langchain
 python-dotenv
 langchain-tavily
-
+langchain_groq
 
 
 uvicorn
