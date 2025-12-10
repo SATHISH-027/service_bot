@@ -22,7 +22,8 @@ class messageRequest(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "welcome to AgenticAI Support Bot API"}
+    return {"message": "welcome to AgenticAI Support Bot API",
+            "Next step": "Click link add /docs" }
 
 @app.post("/chat")
 def chat(request: messageRequest):
